@@ -1,15 +1,15 @@
-.text-field {
+.select-menu {
   margin: 24px 0px;
 }
 
-.text-field label {
+.select-menu label {
   text-align: left;
   display: block;
   margin-bottom: 8px;
   font-size: 24px;
 }
 
-.text-field input {
+.select-menu select {
   background-color: #fff;
   box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
   width: 100%;

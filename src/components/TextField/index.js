@@ -1,11 +1,30 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./TextField.css";
 
-const TextField = ({ label, placeholder }) => {
+const TextField = ({
+  label,
+  placeholder,
+  required,
+  onChange,
+  currentValue,
+}) => {
+  const handleChange = (event) => {
+    onChange(event.target.value);
+  };
+
+  useEffect(() => {
+    console.log(currentValue);
+  }, [currentValue]);
+
   return (
     <div className="text-field">
       <label>{label}</label>
-      <input placeholder={`${placeholder}...`} />
+      <input
+        value={currentValue}
+        onChange={handleChange}
+        required={required}
+        placeholder={`${placeholder}...`}
+      />
     </div>
   );
 };
