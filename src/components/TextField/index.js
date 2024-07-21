@@ -1,10 +1,11 @@
 import React from "react";
 import "./TextField.css";
-const TextField = () => {
+
+const TextField = ({ label, placeholder }) => {
   return (
     <div className="text-field">
-      <label>Nome</label>
-      <input placeholder="Type in your name" />
+      <label>{label}</label>
+      <input placeholder={`${placeholder}...`} />
     </div>
   );
 };
