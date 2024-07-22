@@ -2,22 +2,22 @@ import "./Footer.css";
 
 export const Footer = () => {
   return (
-    <footer className="footer">
+    <footer className="page-footer">
       <section>
         <ul>
           <li>
             <a href="facebook.com" target="_blank">
-              <img src="/imagens/facebook.png" alt="" />
+              <img src="/images/fb.png" alt="" />
             </a>
           </li>
           <li>
             <a href="twitter.com" target="_blank">
-              <img src="/imagens/twitter.png" alt="" />
+              <img src="/images/tw.png" alt="" />
             </a>
           </li>
           <li>
             <a href="instagram.com" target="_blank">
-              <img src="/imagens/instagram.png" alt="" />
+              <img src="/images/ig.png" alt="" />
             </a>
           </li>
         </ul>

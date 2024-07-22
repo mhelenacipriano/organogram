@@ -8,7 +8,7 @@ export const EmployeeCard = ({ name, image, position, primaryColor }) => {
         <img src={image} alt={name}></img>
       </div>
       <div className="footer">
-        <h4>{name}</h4>
+        <h4 style={{ color: primaryColor }}>{name}</h4>
         <h5>{position}</h5>
       </div>
     </div>

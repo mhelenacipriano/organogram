@@ -9,34 +9,34 @@ import Footer from "./components/Footer";
 function App() {
   const squads = [
     {
-      name: "Front-End",
-      primaryColor: "#82CFFA",
-      secondaryColor: "#E8F8FF",
+      name: "Cardiology",
+      primaryColor: "#2bb2ff",
+      secondaryColor: "#82CFFA",
     },
     {
-      name: "Data Sciense",
-      primaryColor: "#A6D157",
-      secondaryColor: "#F0F8E2",
+      name: "Dermatology",
+      primaryColor: "#01758a",
+      secondaryColor: "#0097b2",
     },
     {
-      name: "Devops",
-      primaryColor: "#E06B69",
+      name: "Gynecology",
+      primaryColor: "#0cc0df",
       secondaryColor: "#FDE7E8",
     },
     {
-      name: "UX e Design",
-      primaryColor: "#D86EBF",
-      secondaryColor: "#FAE5F5",
+      name: "Oncology",
+      primaryColor: "#3fab43",
+      secondaryColor: "#82b884",
     },
     {
-      name: "Mobile",
-      primaryColor: "#FEBA05",
-      secondaryColor: "#FFF5D9",
+      name: "Pediatrics",
+      primaryColor: "#18ada9",
+      secondaryColor: "#60bfbc",
     },
     {
-      name: "Inovação e Gestão",
-      primaryColor: "#FF8A29",
-      secondaryColor: "#FFEEDF",
+      name: "Cirurgy",
+      primaryColor: "#183bad",
+      secondaryColor: "#425aa6",
     },
   ];
 

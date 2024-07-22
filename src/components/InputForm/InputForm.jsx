@@ -21,7 +21,7 @@ export const InputForm = ({ onNewEmployee, squads }) => {
   return (
     <section className="input-form">
       <form onSubmit={handleSubmit}>
-        <h2>Fill in the data to create employee card</h2>
+        <h2 className="header">Fill in the data to create employee card</h2>
         <TextField
           required={true}
           label={"Name"}
@@ -49,7 +49,7 @@ export const InputForm = ({ onNewEmployee, squads }) => {
           onChange={setTeam}
           currentValue={team}
         />
-        <Button label={"Create card"} />
+        <Button label={"Create"} />
       </form>
     </section>
   );

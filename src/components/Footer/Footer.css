@@ -1,20 +1,16 @@
-css
-/* src/componentes/Rodape/rodape.css */
-
-.footer {
-  background: #6278f7;
+.page-footer {
+  background: #77adc4;
   color: #fff;
-  padding: 80px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.footer ul li {
+.page-footer ul li {
   display: inline-block;
   margin-right: 32px;
 }
 
-.footer ul li:last-child {
+.page-footer ul li:last-child {
   margin-right: 0;
 }
